@@ -33,40 +33,35 @@ namespace Cáuculo_Do_IMC
                 double r;
 
                 r = n2 / (n1 * n1);
+                txbResultado.Text = Math.Round(r,2).ToString();
 
                 if (r < 18.5)
-                {
-                    txbResultado.Text = r.ToString();
+                {                    
                     lblIMC.Text = "Abaixo do peso";
                     lblIMC.ForeColor = Color.Black;
                 }
                 else if (r < 24.9)
-                {
-                    txbResultado.Text = r.ToString();
+                {                    
                     lblIMC.Text = "Peso ideal (párabens)";
                     lblIMC.ForeColor = Color.Green;
                 }
                 else if (r < 29.9)
-                {
-                    txbResultado.Text = r.ToString();
+                {                    
                     lblIMC.Text = "Levemente acima do peso";
                     lblIMC.ForeColor = Color.YellowGreen;
                 }
                 else if (r < 34.9)
-                {
-                    txbResultado.Text = r.ToString();
+                {                    
                     lblIMC.Text = "Obesidade grau |";
                     lblIMC.ForeColor = Color.Orange;
                 }
                 else if (r < 39.9)
-                {
-                    txbResultado.Text = r.ToString();
+                {                    
                     lblIMC.Text = "Obesidade grau || (severa)";
                     lblIMC.ForeColor = Color.Red;
                 }
                 else if (r > 40)
-                {
-                    txbResultado.Text = r.ToString();
+                {                    
                     lblIMC.Text = "Obesidade ||| (mórbida)";
                     lblIMC.ForeColor = Color.Purple;
                 }

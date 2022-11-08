@@ -9,3 +9,14 @@ C:\Users\marcello.basilva\source\repos\Cáuculo Do IMC\Cáuculo Do IMC\obj\Debug
 C:\Users\marcello.basilva\source\repos\Cáuculo Do IMC\Cáuculo Do IMC\obj\Debug\CáLculo Do IMC.csproj.CoreCompileInputs.cache
 C:\Users\marcello.basilva\source\repos\Cáuculo Do IMC\Cáuculo Do IMC\obj\Debug\Cáuculo Do IMC.exe
 C:\Users\marcello.basilva\source\repos\Cáuculo Do IMC\Cáuculo Do IMC\obj\Debug\Cáuculo Do IMC.pdb
+C:\Users\marcello.basilva\source\repos\Cálculo Do IMC\Cáuculo Do IMC\bin\Debug\Cáuculo Do IMC.exe.config
+C:\Users\marcello.basilva\source\repos\Cálculo Do IMC\Cáuculo Do IMC\bin\Debug\Cáuculo Do IMC.exe
+C:\Users\marcello.basilva\source\repos\Cálculo Do IMC\Cáuculo Do IMC\bin\Debug\Cáuculo Do IMC.pdb
+C:\Users\marcello.basilva\source\repos\Cálculo Do IMC\Cáuculo Do IMC\obj\Debug\Cálculo Do IMC.csproj.AssemblyReference.cache
+C:\Users\marcello.basilva\source\repos\Cálculo Do IMC\Cáuculo Do IMC\obj\Debug\Cálculo Do IMC.csproj.SuggestedBindingRedirects.cache
+C:\Users\marcello.basilva\source\repos\Cálculo Do IMC\Cáuculo Do IMC\obj\Debug\Cáuculo_Do_IMC.Form1.resources
+C:\Users\marcello.basilva\source\repos\Cálculo Do IMC\Cáuculo Do IMC\obj\Debug\Cáuculo_Do_IMC.Properties.Resources.resources
+C:\Users\marcello.basilva\source\repos\Cálculo Do IMC\Cáuculo Do IMC\obj\Debug\Cálculo Do IMC.csproj.GenerateResource.cache
+C:\Users\marcello.basilva\source\repos\Cálculo Do IMC\Cáuculo Do IMC\obj\Debug\Cálculo Do IMC.csproj.CoreCompileInputs.cache
+C:\Users\marcello.basilva\source\repos\Cálculo Do IMC\Cáuculo Do IMC\obj\Debug\Cáuculo Do IMC.exe
+C:\Users\marcello.basilva\source\repos\Cálculo Do IMC\Cáuculo Do IMC\obj\Debug\Cáuculo Do IMC.pdb
