@@ -30,11 +30,11 @@ namespace Cáuculo_Do_IMC
             {
                 double n1 = double.Parse(txbN1.Text);
                 double n2 = double.Parse(txbN2.Text);
-                double r;
+                double r;                
 
                 r = n2 / (n1 * n1);
-                txbResultado.Text = Math.Round(r,2).ToString();
-
+                txbResultado.Text = Math.Round(r,2).ToString();                               
+                
                 if (r < 18.5)
                 {                    
                     lblIMC.Text = "Abaixo do peso";
@@ -75,6 +75,16 @@ namespace Cáuculo_Do_IMC
 
 
 
+
+        }
+
+        private void lblN1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txbResultado_TextChanged(object sender, EventArgs e)
+        {
 
         }
     }

@@ -44,17 +44,18 @@
             // 
             this.lblN1.AutoSize = true;
             this.lblN1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblN1.Location = new System.Drawing.Point(27, 80);
+            this.lblN1.Location = new System.Drawing.Point(28, 85);
             this.lblN1.Name = "lblN1";
             this.lblN1.Size = new System.Drawing.Size(51, 20);
             this.lblN1.TabIndex = 0;
             this.lblN1.Text = "Altura";
+            this.lblN1.Click += new System.EventHandler(this.lblN1_Click);
             // 
             // lblN2
             // 
             this.lblN2.AutoSize = true;
             this.lblN2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblN2.Location = new System.Drawing.Point(22, 137);
+            this.lblN2.Location = new System.Drawing.Point(28, 124);
             this.lblN2.Name = "lblN2";
             this.lblN2.Size = new System.Drawing.Size(45, 20);
             this.lblN2.TabIndex = 2;
@@ -96,8 +97,12 @@
             this.txbResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txbResultado.Location = new System.Drawing.Point(78, 261);
             this.txbResultado.Name = "txbResultado";
+            this.txbResultado.ReadOnly = true;
             this.txbResultado.Size = new System.Drawing.Size(100, 26);
             this.txbResultado.TabIndex = 7;
+            this.txbResultado.TabStop = false;
+            this.txbResultado.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txbResultado.TextChanged += new System.EventHandler(this.txbResultado_TextChanged);
             // 
             // lblIMC
             // 
@@ -111,7 +116,7 @@
             // txbN1
             // 
             this.txbN1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbN1.Location = new System.Drawing.Point(79, 79);
+            this.txbN1.Location = new System.Drawing.Point(93, 82);
             this.txbN1.Name = "txbN1";
             this.txbN1.Size = new System.Drawing.Size(100, 26);
             this.txbN1.TabIndex = 9;
@@ -119,7 +124,7 @@
             // txbN2
             // 
             this.txbN2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbN2.Location = new System.Drawing.Point(79, 137);
+            this.txbN2.Location = new System.Drawing.Point(93, 121);
             this.txbN2.Name = "txbN2";
             this.txbN2.Size = new System.Drawing.Size(100, 26);
             this.txbN2.TabIndex = 10;
